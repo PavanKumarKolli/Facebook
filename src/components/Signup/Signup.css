@@ -1,0 +1,102 @@
+.signup-gender-container {
+  display: flex;
+  flex-direction: row;
+  width: 350px;
+}
+
+.signup-gender-container span {
+  border: 1px solid grey;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100px;
+  outline-style: none;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.signup-gender-container label {
+  width: 100px;
+  color: rgb(0, 0, 0);
+  accent-color: orange;
+}
+.signup-seconhead-div {
+  width: 400px;
+  height: 500px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 3px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2 rem;
+  padding: 5px;
+}
+.signup-date-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 90%;
+  height: 40px;
+  gap: 2rem;
+}
+.signup-input-container {
+  width: 100%;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background: "transparent";
+  outline-style: none;
+  background-color: transparent;
+}
+.signup-input-container input {
+  height: 40px;
+  outline-style: none;
+  background-color: transparent;
+  border: 1px solid grey;
+}
+.signup-input-container input :hover {
+  border: 1px solid blue;
+}
+.signup-div-maincontainer {
+  width: 100%;
+  gap: 2 rem;
+
+  /* border: 1px solid green; */
+}
+.signup-div-maincontainer input {
+  width: 45%;
+}
+.signup-maindic-container {
+  width: 150px;
+  border: 1px solid grey;
+  outline-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid grey(0, 0, 0);
+  border-radius: 7px;
+  height: 30px;
+}
+#male {
+  width: 30%;
+  height: 20px;
+  border: 1px solid rgb(255, 136, 0);
+}
+.signup-main {
+  text-align: start;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
